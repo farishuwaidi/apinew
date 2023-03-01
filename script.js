@@ -1,7 +1,7 @@
 const searchInput = document.getElementById('search-input')
 const news = document.getElementById('row')
 
-const urlapi = 'https://newsapi.org/v2/top-headlines?' +'country=id&' +'from=2023-02-28&' +'sortBy=popularity&' +'apiKey=ad935f0d60034b27844e872e1fa4e792';
+const urlapi = 'https://newsapi.org/v2/top-headlines?' +'country=id&' +'sortBy=popularity&' +'apiKey=ad935f0d60034b27844e872e1fa4e792';
 
 const initialPromise = (url) => {
     return new Promise((resolve, reject) => {
